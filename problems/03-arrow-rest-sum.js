@@ -10,7 +10,21 @@ arrowRestSum(1, 2, 3, 4, 5, 6, 7, 8, 9); // => 14
 arrowRestSum(0); // => 0
 ***********************************************************************/
 
-// your code here!
+const arrowRestSum = (...parameters) => {
+  let array = parameters;
+  let sum = 0;
+  
+  for (let i = 0; i < array.length; i++) {
+    let el = array[i];
+    sum += el; 
+  }
+
+  return sum;
+}
+
+console.log(arrowRestSum(3, 5, 6)); // => 14
+arrowRestSum(1, 2, 3, 4, 5, 6, 7, 8, 9); // => 14
+arrowRestSum(0); // => 0
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
