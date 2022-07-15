@@ -28,7 +28,15 @@ Example 4:
 
 ***********************************************************************/
 
-// your code here
+let counDownTimer = (num) => {
+  if (num < 1) {
+    return 'Happy New Year';
+  }
+
+  return
+
+
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
